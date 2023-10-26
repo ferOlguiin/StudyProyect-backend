@@ -4,7 +4,7 @@ import router from './routes/index.routes.js';
 
 const app = express();
 
-app.use(cors({origin: "https://estudiotopia.online"}))
+app.use(cors({origin: "https://www.estudiotopia.online"}))
 app.use(express.json());
 
 app.use(router);
